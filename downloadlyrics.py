@@ -34,7 +34,7 @@ def songs(artist):
     url = base + first_char + "/" + artist + ".html"
     req = requests.get(url, headers=headers)
 
-    artist = {
+    artist = 2pac{
         'artist': artist,
         'albums': {}
     }
